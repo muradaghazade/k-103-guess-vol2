@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="range">
+        <p>Select Range</p>
+        <input type="number" id="rangeNum">
+        <button onclick="chooseRandom()">Submit</button>
+    </div>
+
+    <div id="chance">
+        <p>Chances: <span id="chanceCount"></span></p>
+    </div>
+
+    <div id="guess">
+        <input type="number" id="user-num">
+        <button onclick="guess()">Guess!</button>
+    </div>
+
+    <div id="wrong">
+        <h1 style="color: red;">Wrong!</h1>
+    </div>
+
+    <div id="win">
+        <h1>You are a Winner!!!!</h1>
+        <img src="https://media1.tenor.com/m/bQrjUlPjAnsAAAAC/despicable-me-minions.gif" alt="">
+    </div>
+
+    <div id="lose">
+        <h1>You are a Loser!!!!</h1>
+        <img src="https://media.tenor.com/pa82V1k3MCsAAAAM/bob-anakshie.gif" alt="">
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
